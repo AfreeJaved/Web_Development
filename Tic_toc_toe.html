@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tic toc toe</title>
+	<style type="text/css">
+	h1{
+	color:#1b6e6e;
+	text-align: center;
+	text-decoration: blink;
+	text-shadow: 15px 15px #1dadad;
+	}
+
+	table {
+		margin: auto;
+	}
+
+	td {
+		width: 100px;
+		height: 100px;
+	}
+
+	td:hover{
+			border: 2px solid grey;
+	}
+	.vertical{
+			border-left: 2px solid black;
+			border-right: 2px solid black;
+	}
+	.horizontal{
+			border-top: 2px solid black;
+			border-bottom: 2px solid black;
+	}
+	body{
+		background-image: url(https://wallpaperaccess.com/full/2078959.jpg);
+		background-blend-mode: lighten;
+		background-repeat: no-repeat;
+	}
+	</style>
+</head>
+<body>
+	<h1>TIC TAC TOE</h1>
+		<table>
+			<tr>
+				<td></td>
+				<td class="vertical"></td>
+				<td></td>
+			</tr>
+		    <tr>
+				<td class="horizontal"></td>
+				<td class="vertical horizontal"></td>
+				<td class="horizontal"></td>
+			</tr>
+		    <tr>
+				<td></td>
+				<td class="vertical"></td>
+				<td></td>
+			</tr>
+		</table>
+
+</body>
+</html>
