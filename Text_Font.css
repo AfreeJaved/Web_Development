@@ -62,3 +62,10 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+h3{
+    font-family: 'Merienda One', cursive;
+}
+h3{
+	text-align: center;
+	text-shadow: 2px 2px 8px #000000;
+}
