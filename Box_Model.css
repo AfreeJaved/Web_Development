@@ -1,0 +1,25 @@
+/*Positioning of elements......Content,Padding,Border,Margin*/
+/*Padding - space b/w element and border*/
+p{
+/*Content - Width and Height*/
+
+width: 200px;
+/*height: 50px;*/
+width: 50%;      /*50% of parent element*/
+
+/*Border*/
+
+border: 2px solid blue;
+
+/*Padding*/
+
+/*padding: 10px;*/
+padding-left: 50px;
+
+/*Margin*/
+
+margin: 100px;
+margin: 10px 20px 30px 10px; 
+margin: 0 auto 0 auto;
+margin: 0 auto;
+}
