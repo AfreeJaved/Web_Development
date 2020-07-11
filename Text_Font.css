@@ -1,0 +1,64 @@
+/*font-family*/
+p{
+	font-family: papyrus;
+}
+h1{
+	font-family: papyrus;
+}
+/*font-size*/
+h1{
+	font-size: 99px;
+}
+
+h1{
+	font-size: 3.0em;
+}
+p{
+	/*font-size: 2.0em;*/
+}
+p:nth-of-type(1) span{
+	font-size: 2.0em;      /*em Makes span text size double the size of p tag text*/
+}
+/*font-weight*/    /*Refers to intensity of text ....How bold or lighter the font will be*/
+p{
+	font-weight: bold;
+}
+p{
+	font-weight: normal;  /*it can be numeric ranges:100,200,300.......800*/
+}
+p{
+	font-weight: 700;
+}
+
+/*line-height*/   /*Line height--how much space is b/w two lines*/
+p{
+	line-height: 2;   /*Depends upon the size of font used*/
+}
+/*text-align*/
+h1{
+	text-align: right;
+}
+p{
+	text-align: center;
+}
+h1{
+	text-align: left;
+}
+h1{
+	text-align: center;
+}
+
+/*text-decoration*/   /*Gives text effects:Underline,Overline and Line Though*/
+h1{
+	text-decoration: underline;
+}
+.error{
+	text-decoration: line-through;
+}
+
+
+body{
+	background-image: url(https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&w=1000&q=80);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
